@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-02T20:23:02.867Z",
+        "line": 20,
+        "name": "User can successfully search for a property",
+        "description": "",
+        "id": "search-for-property-for-sale;user-can-successfully-search-for-a-property;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1038400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Zoopla.co.uk",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_navigate_to_Zoopla_co_uk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the To Buy tab is highlighted",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.the_To_Buy_tab_is_highlighted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter a \"ST4 7DW\" in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ST4 7DW\"",
+                  "offset": 10
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_enter_a_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select a \"50000\" from minimum price drop button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50000\"",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_select_a_from_minimum_price_drop_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select a \"400000\" from the maximum price drop button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400000\"",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_select_a_from_the_maximum_price_drop_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select a \"Flat\" from the property type drop button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flat\"",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_select_a_from_the_property_type_drop_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select \"3\" from the drop button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_select_from_the_drop_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "all the property within the selected location and price range are displayed",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.all_the_property_within_the_selected_location_and_price_range_are_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the result link",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_the_result_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search for Property for sale",
+    "description": "  As a customer\n  I want the ability to search a property of my choice and view the details\n  So I can have more information about searched property",
+    "id": "search-for-property-for-sale",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertyForSale.feature",
+    "tags": []
+  }
+]
