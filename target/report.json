@@ -3,17 +3,38 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-02T20:23:02.867Z",
+        "start_timestamp": "2020-02-11T00:27:40.291Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14775000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
         "line": 20,
         "name": "User can successfully search for a property",
         "description": "",
         "id": "search-for-property-for-sale;user-can-successfully-search-for-a-property;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 686000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1038400,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +91,6 @@
           },
           {
             "result": {
-              "duration": 997400,
               "status": "passed"
             },
             "line": 11,
