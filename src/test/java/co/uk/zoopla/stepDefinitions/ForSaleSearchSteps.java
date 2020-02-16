@@ -26,13 +26,13 @@ public class ForSaleSearchSteps extends BasePage {
     }
 
     @When("I select a {string} from minimum price drop button")
-    public void i_select_a_from_minimum_price_drop_button(String string) {
-
+    public void i_select_a_from_minimum_price_drop_button(String minimumPrice) {
+     homePage.selectMinimumPrice(minimumPrice);
     }
 
     @When("I select a {string} from the maximum price drop button")
-    public void i_select_a_from_the_maximum_price_drop_button(String string) {
-
+    public void i_select_a_from_the_maximum_price_drop_button(String maximumPrice) {
+    homePage.selectMaximumPrice(maximumPrice);
     }
 
     @When("I select a {string} from the property type drop button")

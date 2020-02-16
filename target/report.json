@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-16T19:27:55.135Z",
+        "start_timestamp": "2020-02-16T19:54:36.098Z",
         "before": [
           {
             "result": {
-              "duration": 10014000000,
+              "duration": 10000000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1352000000,
+              "duration": 743000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1850000000,
+              "duration": 1703000000,
               "status": "passed"
             },
             "line": 7,
@@ -58,9 +58,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:93)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.sendKeys(Unknown Source)\r\n\tat co.uk.zoopla.pages.HomePage.enterLocation(HomePage.java:23)\r\n\tat co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_enter_a_in_the_search_bar(ForSaleSearchSteps.java:25)\r\n\tat ✽.I enter a \"ST4 7DW\" in the search bar(file:///C:/Users/olawu/IdeaProjects/ZooplaJan/src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertyForSale.feature:9)\r\n",
-              "duration": 17000000,
-              "status": "failed"
+              "duration": 141000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I enter a \"ST4 7DW\" in the search bar",
@@ -77,14 +76,15 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 136000000,
+              "status": "passed"
             },
             "line": 10,
-            "name": "I select a \"50000\" from minimum price drop button",
+            "name": "I select a \"£100,000\" from minimum price drop button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"50000\"",
+                  "val": "\"£100,000\"",
                   "offset": 11
                 }
               ],
@@ -94,14 +94,15 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 108000000,
+              "status": "passed"
             },
             "line": 11,
-            "name": "I select a \"400000\" from the maximum price drop button",
+            "name": "I select a \"£400,000\" from the maximum price drop button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"400000\"",
+                  "val": "\"£400,000\"",
                   "offset": 11
                 }
               ],
@@ -111,7 +112,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 12,
             "name": "I select a \"Flat\" from the property type drop button",
@@ -128,7 +129,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 13,
             "name": "I select \"3\" from the drop button",
@@ -145,7 +146,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 14,
             "name": "I click on the Search button",
@@ -156,7 +157,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 15,
             "name": "all the property within the selected location and price range are displayed",
@@ -167,7 +168,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 16,
             "name": "I click on the result link",

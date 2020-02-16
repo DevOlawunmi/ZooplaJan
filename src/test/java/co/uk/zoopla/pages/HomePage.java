@@ -17,12 +17,25 @@ public class HomePage extends BasePage //we want to access basepage and therfore
     }
     @FindBy(id = "search-input-location")
     private WebElement searchBox;
+    @FindBy(name = "price_min")
+    private WebElement MinPrice;
+    @FindBy (name = "price_max")
+    private WebElement MaxPrice;
 
     public void enterLocation(String location)
     {
-        searchBox.sendKeys();
-
+        searchBox.sendKeys(location);
 
     }
+    public void selectMinimumPrice(String miniPrice)
+    {
+        selectByText(MinPrice,miniPrice);
+    }
+    public void selectMaximumPrice(String maxiPrice)
+    {
+        selectByText(MaxPrice, maxiPrice);
+    }
+
 }
+
 
