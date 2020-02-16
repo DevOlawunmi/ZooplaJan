@@ -1,13 +1,18 @@
 package co.uk.zoopla.stepDefinitions;
 
+import co.uk.zoopla.pages.BasePage;
+import co.uk.zoopla.pages.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.PageFactory;
 
-public class ForSaleSearchSteps {
+public class ForSaleSearchSteps extends BasePage {
+
+    HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     @Given("I navigate to Zoopla.co.uk")
-    public void i_navigate_to_Zoopla_co_uk() {
-
+    public void i_navigate_to_Zoopla_co_uk()
+    {homePage.launchURL();
     }
 
     @Given("the To Buy tab is highlighted")
@@ -16,8 +21,8 @@ public class ForSaleSearchSteps {
     }
 
     @When("I enter a {string} in the search bar")
-    public void i_enter_a_in_the_search_bar(String string) {
-
+    public void i_enter_a_in_the_search_bar(String location) {
+    homePage.enterLocation(location);
     }
 
     @When("I select a {string} from minimum price drop button")
