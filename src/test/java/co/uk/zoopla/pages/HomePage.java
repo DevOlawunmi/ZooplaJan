@@ -21,13 +21,30 @@ public class HomePage extends BasePage //we want to access basepage and therfore
     private WebElement MinPrice;
     @FindBy (name = "price_max")
     private WebElement MaxPrice;
+    @FindBy (id = "property_type")
+    private WebElement propertyType;
+    @FindBy (id = "beds_min")
+    private WebElement noOfBeds;
+    @FindBy(css = ".button.button--primary")
+     private WebElement searchButton;
 
+    public void selectNoOfBedrooms(String bed)
+    {
+        selectByText(noOfBeds,bed);
+
+    }
+    public void selectPropertyType(String property)
+    {
+        selectByText(propertyType, property);
+
+    }
     public void enterLocation(String location)
     {
         searchBox.sendKeys(location);
 
     }
     public void selectMinimumPrice(String miniPrice)
+
     {
         selectByText(MinPrice,miniPrice);
     }
@@ -35,7 +52,11 @@ public class HomePage extends BasePage //we want to access basepage and therfore
     {
         selectByText(MaxPrice, maxiPrice);
     }
-
+public SearchResultPage clickOnSearchButton()
+{
+    searchBox.click();
+    return new SearchResultPage(driver);
+}
 }
 
 

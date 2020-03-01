@@ -4,6 +4,7 @@
     <list default="true" id="6e2e74ab-8e33-4550-bfe8-5ca1d416f4d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertyForSale.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertyForSale.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/ForSaleSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/ForSaleSearchSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
@@ -27,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -184,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581881361708</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Homepage launched, location, min price and max prices selected. Test passed">
+      <created>1581882991140</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581882991140</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,7 +207,8 @@
     <MESSAGE value="Hooks and Commons" />
     <MESSAGE value="Hooks and Commons Test result" />
     <MESSAGE value="Zoopla Homepage Launched" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zoopla Homepage Launched" />
+    <MESSAGE value="Homepage launched, location, min price and max prices selected. Test passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homepage launched, location, min price and max prices selected. Test passed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="429" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581277821573">
@@ -209,30 +223,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="460" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1580068070461" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1581881360974">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1581882990554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581881360974" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581882990554" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1580664156548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580664156548" />
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1581882875181">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1583086966708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581882875181" />
-    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1581882875181">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583086966708" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1583086966708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581882875181" />
-    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1581882875181">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583086966708" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1583086966706">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581882875181" />
-    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1581882875181">
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583086966706" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1583086966708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581882875181" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583086966708" />
     <state x="439" y="112" key="NewModule_or_Project.wizard" timestamp="1580949705090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -241,17 +255,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580956586957" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581881364392">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581882995185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581881364392" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581559910990">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581882995185" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583081934527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581559910990" />
-    <state x="209" y="68" key="new project wizard" timestamp="1581560169286">
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583081934527" />
+    <state x="209" y="68" key="new project wizard" timestamp="1582084037114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="68" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581560169286" />
+    <state x="209" y="68" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582084037114" />
   </component>
 </project>

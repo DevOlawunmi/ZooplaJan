@@ -6,16 +6,19 @@ import co.uk.zoopla.common.Browsers;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-public class Hook extends Browsers {
-
+public class Hook extends Browsers
+{
+private String chromeBrowser = "Chrome";
 
     @Before
     public void setUp()
     {
-       launchBrowser("Chrome"); //a method that we've parameterized in the browser class
+       launchBrowser(chromeBrowser); //a method that we've parameterized in the browser class
     }
     @After
     public void tearDown()
+
+
     {
         closeBrowser();
     }
